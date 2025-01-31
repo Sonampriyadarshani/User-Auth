@@ -1,0 +1,49 @@
+/* src/assets/styles.css */
+/* Ensure the body and html take full height */
+html, body {
+  height: 100%;
+  margin-left: 250px;
+  font-family: Arial, sans-serif; /* Optional, for consistent styling */
+}
+
+/* Centering the container vertically and horizontally */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  flex-direction: column;
+  text-align: center; /* Optional, for centering text in form */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 300px; /* Fixed width for the form */
+  background-color: #fff; /* Optional: for better visibility */
+  padding: 20px;
+  border-radius: 8px; /* Optional: add rounded corners to the form */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add shadow for better styling */
+}
+
+input {
+  margin-bottom: 15px; /* More space between inputs */
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px; /* Ensure text is easily readable */
+}
+
+button {
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
